@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="newApp">
+  <head>
+    <meta charset="utf-8">
+	
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+   <script type="text/javascript" src="app/angular.js"></script>	
+	<script type="text/javascript" src="app/app.js"></script>
+    </head>
+    <title>Home</title>
+    <body ng-controller="MainController as main">
+    
+       	
+      	</div>
+      		<nav class="navbar navbar-inverse">
+				<div class="container-fluid">
+
+				 <div class="navbar-header">
+ 					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+    					<span class="icon-bar"></span>
+    					<span class="icon-bar"></span>
+    					<span class="icon-bar"></span>
+  					</button>
+ 						 <a class="navbar-brand" title="The Title">
+ <!--   <img style="max-width:100px;" src="#">-->
+  						</a>
+				</div>
+      	    <div class="collapse navbar-collapse navbar-collapse" id="myNavbar">
+        		<ul class="nav navbar-nav pull-right">
+            		<li class="active"><a href="#">HOME</a></li>
+            		<li><a href="#">CHART</a></li>
+        		</ul>
+        	
+   			 </div>
+      </div>
+    </nav>
+    <hr/>
+    </br>
+
+
+    	   	<div ng-controller="MainController as temp">
+    	   	<div ng-include="'views/collision.html'">
+    	   		{{temp.value}} 
+    	   	</div>
+    	   	
+
+    	</div>
+    	
+    	
+    	 <div class="footer">
+        	<p><span></span> </p>
+        	
+     
+ 
+    </body>
+</html>
